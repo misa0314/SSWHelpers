@@ -9,14 +9,14 @@
 
 ## 目次
 
-- [Requirements](#Requirements)
-- [Installation](#Installation)
-- [BasicUsage](#BasicUsage)
-    - [ColorHelper](#ColorHelper)
-    - [DateHelper](#DateHelper)
-    - [StringHelper](#StringHelper)
-    - [ImageHelper](#ImageHelper)
-- [License](#License)
+- [Requirements](#requirements)
+- [Installation](#installation)
+- [BasicUsage](#basicUsage)
+   - [ColorHelper](#colorHelper)
+   - [DateHelper](#dateHelper)
+   - [StringHelper](#stringHelper)
+   - [ImageHelper](#imageHelper)
+- [License](#license)
 
 ## Requirements
 ---
