@@ -12,14 +12,14 @@
 		6F9386DA18D815B1BC1DBF9D3FB4A6AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		88857A91E95A98D03964E65943F5A634 /* Pods-SSWHelpers_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 47CA6CE74FEADDFB0D6FC9DFC5AA6D04 /* Pods-SSWHelpers_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		981A813AE8DDBEA968D1895F80A26557 /* SSWHelpers-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1359D42402BED16900FEEF5D229F2DF1 /* SSWHelpers-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AF4E44ED2117F14500A854F1 /* ColorHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4E44E92117F14400A854F1 /* ColorHelper.swift */; };
-		AF4E44EE2117F14500A854F1 /* ColorHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4E44E92117F14400A854F1 /* ColorHelper.swift */; };
-		AF4E44EF2117F14500A854F1 /* DateHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4E44EA2117F14400A854F1 /* DateHelper.swift */; };
-		AF4E44F02117F14500A854F1 /* DateHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4E44EA2117F14400A854F1 /* DateHelper.swift */; };
-		AF4E44F12117F14500A854F1 /* ImageHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4E44EB2117F14500A854F1 /* ImageHelper.swift */; };
-		AF4E44F22117F14500A854F1 /* ImageHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4E44EB2117F14500A854F1 /* ImageHelper.swift */; };
-		AF4E44F32117F14500A854F1 /* StringHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4E44EC2117F14500A854F1 /* StringHelper.swift */; };
-		AF4E44F42117F14500A854F1 /* StringHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4E44EC2117F14500A854F1 /* StringHelper.swift */; };
+		AF4E44F92117F42E00A854F1 /* StringHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4E44F52117F42D00A854F1 /* StringHelper.swift */; };
+		AF4E44FA2117F42E00A854F1 /* StringHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4E44F52117F42D00A854F1 /* StringHelper.swift */; };
+		AF4E44FB2117F42E00A854F1 /* ColorHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4E44F62117F42D00A854F1 /* ColorHelper.swift */; };
+		AF4E44FC2117F42E00A854F1 /* ColorHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4E44F62117F42D00A854F1 /* ColorHelper.swift */; };
+		AF4E44FD2117F42E00A854F1 /* DateHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4E44F72117F42D00A854F1 /* DateHelper.swift */; };
+		AF4E44FE2117F42E00A854F1 /* DateHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4E44F72117F42D00A854F1 /* DateHelper.swift */; };
+		AF4E44FF2117F42E00A854F1 /* ImageHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4E44F82117F42E00A854F1 /* ImageHelper.swift */; };
+		AF4E45002117F42E00A854F1 /* ImageHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4E44F82117F42E00A854F1 /* ImageHelper.swift */; };
 		B446DE0F54840649C08DC83F9723B061 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -49,10 +49,10 @@
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9FCC73FBCF63EA48EF6E9332399D309A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A8E533B8FA800070B35F12A525170BCE /* Pods-SSWHelpers_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SSWHelpers_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		AF4E44E92117F14400A854F1 /* ColorHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorHelper.swift; sourceTree = "<group>"; };
-		AF4E44EA2117F14400A854F1 /* DateHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateHelper.swift; sourceTree = "<group>"; };
-		AF4E44EB2117F14500A854F1 /* ImageHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageHelper.swift; sourceTree = "<group>"; };
-		AF4E44EC2117F14500A854F1 /* StringHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringHelper.swift; sourceTree = "<group>"; };
+		AF4E44F52117F42D00A854F1 /* StringHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StringHelper.swift; path = SSWHelpers/Classes/StringHelper.swift; sourceTree = "<group>"; };
+		AF4E44F62117F42D00A854F1 /* ColorHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ColorHelper.swift; path = SSWHelpers/Classes/ColorHelper.swift; sourceTree = "<group>"; };
+		AF4E44F72117F42D00A854F1 /* DateHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DateHelper.swift; path = SSWHelpers/Classes/DateHelper.swift; sourceTree = "<group>"; };
+		AF4E44F82117F42E00A854F1 /* ImageHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImageHelper.swift; path = SSWHelpers/Classes/ImageHelper.swift; sourceTree = "<group>"; };
 		AF97CC67520770A46D44455426BA62F3 /* Pods-SSWHelpers_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SSWHelpers_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		CD7EBAA17495CC0688DE4547CACF6CB1 /* Pods-SSWHelpers_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SSWHelpers_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		D58D6C13CB52085904B73E702212FA58 /* SSWHelpers.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SSWHelpers.modulemap; sourceTree = "<group>"; };
@@ -97,10 +97,10 @@
 		2A25F046761012FB041F30AB10577103 /* SSWHelpers */ = {
 			isa = PBXGroup;
 			children = (
-				AF4E44E92117F14400A854F1 /* ColorHelper.swift */,
-				AF4E44EA2117F14400A854F1 /* DateHelper.swift */,
-				AF4E44EB2117F14500A854F1 /* ImageHelper.swift */,
-				AF4E44EC2117F14500A854F1 /* StringHelper.swift */,
+				AF4E44F62117F42D00A854F1 /* ColorHelper.swift */,
+				AF4E44F72117F42D00A854F1 /* DateHelper.swift */,
+				AF4E44F82117F42E00A854F1 /* ImageHelper.swift */,
+				AF4E44F52117F42D00A854F1 /* StringHelper.swift */,
 				085366D5F1D9660F57CC9A7EA5310364 /* Support Files */,
 			);
 			name = SSWHelpers;
@@ -246,6 +246,9 @@
 					1D4FED04A2E9255F98EE24D242D49FFC = {
 						LastSwiftMigration = 0940;
 					};
+					5DC764ADD5CA7EA4D26488861950C134 = {
+						LastSwiftMigration = 0940;
+					};
 				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
@@ -271,10 +274,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF4E44F42117F14500A854F1 /* StringHelper.swift in Sources */,
-				AF4E44F22117F14500A854F1 /* ImageHelper.swift in Sources */,
-				AF4E44F02117F14500A854F1 /* DateHelper.swift in Sources */,
-				AF4E44EE2117F14500A854F1 /* ColorHelper.swift in Sources */,
+				AF4E44FA2117F42E00A854F1 /* StringHelper.swift in Sources */,
+				AF4E45002117F42E00A854F1 /* ImageHelper.swift in Sources */,
+				AF4E44FE2117F42E00A854F1 /* DateHelper.swift in Sources */,
+				AF4E44FC2117F42E00A854F1 /* ColorHelper.swift in Sources */,
 				3349102428F999EB448F1E818BE15BF0 /* SSWHelpers-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,11 +286,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF4E44EF2117F14500A854F1 /* DateHelper.swift in Sources */,
+				AF4E44F92117F42E00A854F1 /* StringHelper.swift in Sources */,
+				AF4E44FF2117F42E00A854F1 /* ImageHelper.swift in Sources */,
+				AF4E44FD2117F42E00A854F1 /* DateHelper.swift in Sources */,
+				AF4E44FB2117F42E00A854F1 /* ColorHelper.swift in Sources */,
 				45401BBCA68ACBB23F8FD5B4EBC4E168 /* Pods-SSWHelpers_Tests-dummy.m in Sources */,
-				AF4E44ED2117F14500A854F1 /* ColorHelper.swift in Sources */,
-				AF4E44F32117F14500A854F1 /* StringHelper.swift in Sources */,
-				AF4E44F12117F14500A854F1 /* ImageHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -458,6 +461,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6B454BF6741FFAECDAE43A284F6BF415 /* SSWHelpers.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -489,6 +493,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6B454BF6741FFAECDAE43A284F6BF415 /* SSWHelpers.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
