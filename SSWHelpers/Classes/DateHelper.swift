@@ -13,9 +13,9 @@ import UIKit
 public class DateHelper: NSObject
 {
     
-    /// カレンダーのオブジェクトを取得する
+    /// 標準設定のカレンダーのインスタンスを取得する
     ///
-    /// - Returns: カレンダーのオブジェクト
+    /// - Returns: カレンダーのインスタンス
     public static func getCalendar() -> Calendar?
     {
         // 西暦を設定

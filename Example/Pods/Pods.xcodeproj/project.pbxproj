@@ -99,8 +99,8 @@
 			children = (
 				AF4E44F62117F42D00A854F1 /* ColorHelper.swift */,
 				AF4E44F72117F42D00A854F1 /* DateHelper.swift */,
-				AF4E44F82117F42E00A854F1 /* ImageHelper.swift */,
 				AF4E44F52117F42D00A854F1 /* StringHelper.swift */,
+				AF4E44F82117F42E00A854F1 /* ImageHelper.swift */,
 				085366D5F1D9660F57CC9A7EA5310364 /* Support Files */,
 			);
 			name = SSWHelpers;
