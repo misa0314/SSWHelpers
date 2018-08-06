@@ -22,7 +22,7 @@ pod 'SSWHelpers'
 
 ## Author
 
-渡邉美沙, misa@tokyo.supersoftware.co.jp
+Misa Watanabe, misa@tokyo.supersoftware.co.jp
 
 ## License
 
