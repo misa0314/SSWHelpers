@@ -8,23 +8,20 @@
 開発でよく使う処理のextentionや関数群
 
 ## 目次
-
 - [Requirements](#requirements)
 - [Installation](#installation)
-- [BasicUsage](#basicUsage)
-   - [ColorHelper](#colorHelper)
-   - [DateHelper](#dateHelper)
-   - [StringHelper](#stringHelper)
-   - [ImageHelper](#imageHelper)
+- [BasicUsage](#basicusage)
+   - [ColorHelper](#colorhelper)
+   - [DateHelper](#datehelper)
+   - [StringHelper](#stringhelper)
+   - [ImageHelper](#imagehelper)
 - [License](#license)
 
 ## Requirements
----
 iOS 9.0+
 Xcode 9.4
 
 ## Installation
----
 
 SSWHelpers is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
@@ -34,14 +31,12 @@ pod 'SSWHelpers', :git => 'https://github.com/misa0314/SSWHelpers.git', :branch 
 ```
 
 ## BasicUsage
----
 Import the class header.
 ```
 import SSWHelper
 ```
 
 ### ColorHelper
----
 #### RGBから色を作成する
 アルファ指定なし
 ```
@@ -53,7 +48,6 @@ UIColor.init(rgb: 0xacacff, alpha: 0.5)
 ```
 
 ### DateHelper
----
 #### Date型→日付文字列変換
 ```
 let now: Date = Date()
@@ -84,7 +78,6 @@ let diff = calendar.diffAll(from: fromDate!, to: Date())
 ```
 
 ### StringHelper
----
 ### 日付文字列→Date型変換
 ```
 let str = "2018/08/01 15:00:00"
@@ -92,7 +85,6 @@ let fromDate = str.toDate(format: "YYYY/MM/dd HH:mm:ss")
 ```
 
 ### ImageHelper
----
 #### 正方形の画像の表示を正円で表示
 ```
 let imageView = UIImageView.init(frame: CGRect.init(x: 0.0, y: 0.0, width: 200, height: 200))
@@ -138,5 +130,4 @@ let image = UIImage.init(named: "image")?.cropImageWithOption(option: UIImage.cr
 ```
 
 ## License
----
 SSWHelpers is available under the MIT license. See the LICENSE file for more info.
