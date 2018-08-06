@@ -36,8 +36,8 @@ Import the class header.
 import SSWHelper
 ```
 
-### ColorHelper
 ---
+### ColorHelper
 #### RGBから色を作成する
 アルファ指定なし
 ```
@@ -48,8 +48,8 @@ UIColor.init(rgb: 0xacacff)
 UIColor.init(rgb: 0xacacff, alpha: 0.5)
 ```
 
-### DateHelper
 ---
+### DateHelper
 #### Date型→日付文字列変換
 ```
 let now: Date = Date()
@@ -79,18 +79,16 @@ let fromDate = str.toDate(format: "YYYY/MM/dd HH:mm:ss")
 let diff = calendar.diffAll(from: fromDate!, to: Date())
 ```
 
-### StringHelper
 ---
-### 日付文字列→Date型変換
+### StringHelper
+#### 日付文字列→Date型変換
 ```
 let str = "2018/08/01 15:00:00"
 let fromDate = str.toDate(format: "YYYY/MM/dd HH:mm:ss")
 ```
 
-### ImageHelper
-
 ---
-
+### ImageHelper
 #### 正方形の画像の表示を正円で表示
 ```
 let imageView = UIImageView.init(frame: CGRect.init(x: 0.0, y: 0.0, width: 200, height: 200))
