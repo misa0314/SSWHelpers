@@ -133,5 +133,6 @@ let image = UIImage.init(named: "image")?.cropImage(x: 0.0, y: 0.0, width: 100, 
 let image = UIImage.init(named: "image")?.cropImageWithOption(option: UIImage.cropImageOption.center, width: 100, height: 100)
 ```
 
+---
 ## License
 SSWHelpers is available under the MIT license. See the LICENSE file for more info.
