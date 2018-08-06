@@ -1,0 +1,6 @@
+framework module SSWHelpers {
+  umbrella header "SSWHelpers-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -13,13 +13,13 @@
 
 /* Begin PBXFileReference section */
 		25E0DFF14DFE0240290CE8B3 /* Pods-SSWHelpers_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSWHelpers_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SSWHelpers_Tests/Pods-SSWHelpers_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		3905011B5403C8E4A7F2608E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		3905011B5403C8E4A7F2608E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		3BA1E2BD488376B43AFA66D4 /* Pods-SSWHelpers_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSWHelpers_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SSWHelpers_Tests/Pods-SSWHelpers_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* SSWHelpers_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SSWHelpers_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		8C201EEB0DEDC8316BF9D79E /* SSWHelpers.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SSWHelpers.podspec; path = ../SSWHelpers.podspec; sourceTree = "<group>"; };
-		9E0F5BE964F0D17E4CBA40FA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		8C201EEB0DEDC8316BF9D79E /* SSWHelpers.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SSWHelpers.podspec; path = ../SSWHelpers.podspec; sourceTree = "<group>"; };
+		9E0F5BE964F0D17E4CBA40FA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		D85DEE5CA5158590191F92A0 /* Pods_SSWHelpers_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SSWHelpers_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -131,14 +131,10 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
-					607FACCF1AFB9204008FA782 = {
-						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
-					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 43397N8BQW;
 						LastSwiftMigration = 0900;
-						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
 				};
 			};
@@ -339,6 +335,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 25E0DFF14DFE0240290CE8B3 /* Pods-SSWHelpers_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 43397N8BQW;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -353,7 +350,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SSWHelpers_Example.app/SSWHelpers_Example";
 			};
 			name = Debug;
 		};
@@ -361,6 +357,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3BA1E2BD488376B43AFA66D4 /* Pods-SSWHelpers_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 43397N8BQW;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -371,7 +368,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SSWHelpers_Example.app/SSWHelpers_Example";
 			};
 			name = Release;
 		};

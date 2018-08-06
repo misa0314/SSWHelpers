@@ -1,0 +1,22 @@
+{
+  "name": "SSWHelpers",
+  "version": "0.1.0",
+  "summary": "A short description of SSWHelpers.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/渡邉美沙/SSWHelpers",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "渡邉美沙": "misa@tokyo.supersoftware.co.jp"
+  },
+  "source": {
+    "git": "https://github.com/渡邉美沙/SSWHelpers.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SSWHelpers/Classes/**/*"
+}

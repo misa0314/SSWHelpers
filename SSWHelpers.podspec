@@ -25,7 +25,7 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '渡邉美沙' => 'misa@tokyo.supersoftware.co.jp' }
-  s.source           = { :git => 'https://github.com/渡邉美沙/SSWHelpers.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/misa0314/SSWHelpers.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
