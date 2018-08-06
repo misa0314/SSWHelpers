@@ -1,0 +1,6 @@
+use_frameworks!
+target 'SSWHelpers_Tests' do
+  pod 'SSWHelpers', :path => '../'
+  
+  
+end
