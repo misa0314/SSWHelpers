@@ -88,7 +88,9 @@ let fromDate = str.toDate(format: "YYYY/MM/dd HH:mm:ss")
 ```
 
 ### ImageHelper
+
 ---
+
 #### 正方形の画像の表示を正円で表示
 ```
 let imageView = UIImageView.init(frame: CGRect.init(x: 0.0, y: 0.0, width: 200, height: 200))
